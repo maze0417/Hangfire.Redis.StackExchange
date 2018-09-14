@@ -1,14 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net45;net46;netstandard1.5</TargetFrameworks>
+    <TargetFrameworks>net461;netstandard2.0</TargetFrameworks>
     <PackageId>Hangfire.Redis.StackExchange.StrongName</PackageId>
     <Version>1.7.0</Version>
     <Authors>Marco Casamento</Authors>
     <owners>marcocasamento</owners>
     <!--
       https://docs.microsoft.com/en-us/dotnet/articles/core/tools/project-json-to-csproj
-      There is no equivalent for the owners element in MSBuild. 
+      There is no equivalent for the owners element in MSBuild.
     -->
     <Product>Hangfire Redis Storage (strong name)</Product>
     <PackageProjectUrl>https://github.com/marcoCasamento/Hangfire.Redis.StackExchange</PackageProjectUrl>
@@ -77,5 +77,4 @@
     <PackageReference Include="xunit" Version="2.3.1" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />
   </ItemGroup>
-
 </Project>
